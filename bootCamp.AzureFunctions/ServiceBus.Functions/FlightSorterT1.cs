@@ -24,7 +24,7 @@ namespace bootCamp.AzureFunctions.ServiceBus.Functions
             {
                 var flight = JsonConvert.DeserializeObject<Flight>(sbMessage);
                 LoggerHelper.WriteTrace(functionName, $"{QueueNames.Terminal1}-Informa: Se procesa el vuelo {flight.IATA}{flight.Code} procedente de " +
-                      $"{flight.Orig} y con salida programada a las {flight.Time} ", log, TraceLevel.Info, _telemetry);
+                      $"{flight.Orig} a las {DateTime.UtcNow.ToString("dd/MM/yyyy HH-mm-ss")} | {flight.IdTrace}", log, TraceLevel.Info, _telemetry);
 
             }
             catch (Exception e)

@@ -41,7 +41,7 @@ namespace bootCamp.AzureFunctions
                 AzureServiceBusHelper.SendMessage(ConfigurationManager.AppSettings["AzureWebJobsServiceBus"], runway, JsonConvert.SerializeObject(flight));
 
                LoggerHelper.WriteTrace(functionName, $"Enviado a control aéreo {runway} el vuelo " +
-                   $"{flight.IATA}{flight.Code} : {DateTime.UtcNow.ToString("dd/MM/yyyy HH-mm-ss")} | " +
+                   $"{flight.IATA}{flight.Code} a las {DateTime.UtcNow.ToString("dd/MM/yyyy HH-mm-ss")} | " +
                    $"{flight.IdTrace}", log, TraceLevel.Info, _telemetry);
             }
             catch (Exception e)
