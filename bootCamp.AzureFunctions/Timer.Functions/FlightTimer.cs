@@ -24,14 +24,17 @@ namespace bootCamp.AzureFunctions
 
             try
             {
-                if (flight.IATA.Equals(Iatas.Iberia)) {
-                    runway = QueueNames.Terminal4;
-                }
-                else if (flight.IATA.Contains(Iatas.Ryanair)) {
-                    runway = QueueNames.Terminal1;
-                }
-                else if (flight.IATA.Equals(Iatas.AirEuropa)) {
-                    runway = QueueNames.Terminal2;
+                switch (flight.IATA)
+                {
+                    case Iatas.Iberia:
+                        runway = QueueNames.Terminal4;
+                        break;
+                    case Iatas.Ryanair:
+                        runway = QueueNames.Terminal1;
+                        break;
+                    default:
+                        runway = QueueNames.Terminal2;
+                        break;
                 }
 
                 AzureServiceBusHelper.CreateQueue(ConfigurationManager.AppSettings["AzureWebJobsServiceBus"], runway);
