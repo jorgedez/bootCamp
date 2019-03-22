@@ -18,7 +18,7 @@ namespace bootCamp.AzureFunctions.ServiceBus.Functions
         private const string functionName = "FlightSorterT1";
 
         [FunctionName(functionName)]
-        public static async Task Run([ServiceBusTrigger(QueueNames.Terminal1, AccessRights.Manage, Connection = "AzureWebJobsServiceBus")]string sbMessage, TraceWriter log)
+        public static void Run([ServiceBusTrigger(QueueNames.Terminal1, AccessRights.Manage, Connection = "AzureWebJobsServiceBus")]string sbMessage, TraceWriter log)
         {
             try
             {
