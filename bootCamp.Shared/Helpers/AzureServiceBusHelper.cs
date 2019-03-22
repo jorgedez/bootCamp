@@ -2,7 +2,7 @@
 using Microsoft.ServiceBus.Messaging;
 using System.Threading.Tasks;
 
-namespace bootCamp.AzureFunctions.Helpers
+namespace bootCamp.Shared.Helpers
 {
     public static class AzureServiceBusHelper
     {

@@ -1,8 +1,8 @@
-﻿using bootCamp.AzureFunctions.Constants;
-using bootCamp.AzureFunctions.Entity;
+﻿using bootCamp.Shared.Constants;
+using bootCamp.Shared.Entities;
 using System;
 
-namespace bootCamp.AzureFunctions.Helpers
+namespace bootCamp.Shared.Helpers
 {
     public class FlightGenerator
     {

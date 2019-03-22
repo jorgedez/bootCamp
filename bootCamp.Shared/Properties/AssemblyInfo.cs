@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Shared")]
+[assembly: AssemblyTitle("bootCamp.Shared")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Shared")]
+[assembly: AssemblyProduct("bootCamp.Shared")]
 [assembly: AssemblyCopyright("Copyright ©  2019")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("5ac22d72-b0c9-409e-ab82-8a5e7b0959c4")]
+[assembly: Guid("11b2cb6d-972b-4383-a30f-aaafe3346eb3")]
 
 // Version information for an assembly consists of the following four values:
 //

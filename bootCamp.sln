@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.489
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "bootCamp.AzureFunctions", "bootCamp.AzureFunctions\bootCamp.AzureFunctions.csproj", "{68A8022F-4F05-401E-9BDD-F678F6F3D5D5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "bootCamp.Shared", "bootCamp.Shared\bootCamp.Shared.csproj", "{11B2CB6D-972B-4383-A30F-AAAFE3346EB3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{68A8022F-4F05-401E-9BDD-F678F6F3D5D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{68A8022F-4F05-401E-9BDD-F678F6F3D5D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{68A8022F-4F05-401E-9BDD-F678F6F3D5D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11B2CB6D-972B-4383-A30F-AAAFE3346EB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11B2CB6D-972B-4383-A30F-AAAFE3346EB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11B2CB6D-972B-4383-A30F-AAAFE3346EB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11B2CB6D-972B-4383-A30F-AAAFE3346EB3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

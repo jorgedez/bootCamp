@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace bootCamp.AzureFunctions.Entity
+﻿namespace bootCamp.Shared.Entities
 {
     public class Flight
     {

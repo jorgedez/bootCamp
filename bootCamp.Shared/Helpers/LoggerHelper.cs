@@ -6,7 +6,7 @@ using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 
-namespace bootCamp.AzureFunctions.Helpers
+namespace bootCamp.Shared.Helpers
 {
     public static class LoggerHelper
     {

@@ -1,4 +1,4 @@
-﻿namespace bootCamp.AzureFunctions.Constants
+﻿namespace bootCamp.Shared.Constants
 {
     public static class QueueNames
     {

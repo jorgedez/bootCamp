@@ -15,6 +15,9 @@
     <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\bootCamp.Shared\bootCamp.Shared.csproj" />
+  </ItemGroup>
+  <ItemGroup>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Configuration" />
   </ItemGroup>

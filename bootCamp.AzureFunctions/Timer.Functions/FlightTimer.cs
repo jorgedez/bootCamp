@@ -1,5 +1,5 @@
-using bootCamp.AzureFunctions.Constants;
-using bootCamp.AzureFunctions.Helpers;
+using bootCamp.Shared.Constants;
+using bootCamp.Shared.Helpers;
 using Microsoft.ApplicationInsights;
 using Microsoft.Azure.WebJobs;
 using Microsoft.Azure.WebJobs.Host;
