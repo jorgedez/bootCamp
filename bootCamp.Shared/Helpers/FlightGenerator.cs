@@ -11,7 +11,7 @@ namespace bootCamp.Shared.Helpers
             Random rnd = new Random();
             string[] iatas = { Iatas.Iberia, Iatas.AirEuropa, Iatas.Ryanair };
             string[] destinations = { "MAD" };
-            string[] origins = { "TFN", "TFS", "MAD", "BOG", "MIA", "NYK", "MAL", "BAC" };
+            string[] origins = { "TFN", "TFS", "MAD", "BOG", "MIA", "NYK", "MAL", "BAC", "FRA", "HAM", "MUC", "BRU", "SOF", "ZAG", "ALC", "GRO", "LPA", "IBZ", "AGP", "MAH", "SDR" };
 
             int mIatas = rnd.Next(iatas.Length);
             int mDestinations = rnd.Next(destinations.Length);
