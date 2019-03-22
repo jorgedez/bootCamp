@@ -15,6 +15,8 @@ Para nuestro ejemplo usaremos el service bus "bootsb" donde crearemos 3 queue (t
 Crearemos una Function App "bootcamptfe" asociada a plan de consumo (para abaratar costes) y publicaremos las functions:
   - FlightSorterT1, FlightSorterT2, FlightSorterT4, FlightTimer (tened en cuenta que ahora mismo se dispara cada 1m)
   
+La entrada a la aplicación se realizará mediante el TimerTrigger que si dispara cada 1m creando el vuelo y distribuyendolo.
+  
  ######
  
  Una vez ejecutada la aplicación deberiamos comenzar a recibir trazas en AppInsight con la ordenación de los vuelos.
