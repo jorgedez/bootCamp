@@ -8,7 +8,6 @@ using Microsoft.ServiceBus.Messaging;
 using Newtonsoft.Json;
 using System;
 using System.Diagnostics;
-using System.Threading.Tasks;
 
 namespace bootCamp.AzureFunctions.ServiceBus.Functions
 {
