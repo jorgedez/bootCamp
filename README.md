@@ -2,7 +2,7 @@
 
 # Procesamiento de simulador de llegadas de vuelos y derivación según IATA en distintas terminales.
 
-Se generarán aleatoriamente vuelos con un similador de codificacion tal que IATA+NumVuelo y dependiendo del tipo de IATA:
+Se generarán aleatoriamente vuelos con un simulador de codificacion tal que IATA+NumVuelo y dependiendo del tipo de IATA:
 - RYR (Ryanair), IB (Iberia), UX (AirEuropa) iran destinados a distintas terminales "colas" (T1,T4,T2).
 - Se procesaran la entrada correctamente mediante logs de ApplicationInsights.
 
