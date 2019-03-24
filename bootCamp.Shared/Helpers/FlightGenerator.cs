@@ -25,7 +25,7 @@ namespace bootCamp.Shared.Helpers
                 Code = mFlightNumber.ToString(),
                 Orig = origins[mOrigins],
                 Dest = destinations[mDestinations],
-                Time = DateTime.UtcNow.ToString("yyyyMMddHHmmss")
+                Time = DateTime.UtcNow.ToString("dd/MM/yyyy HH-mm-ss")
             };
         }
     }

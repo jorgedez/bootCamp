@@ -50,7 +50,7 @@ namespace bootCamp.AzureFunctions
                 throw e;
             }
 
-            LoggerHelper.WriteTrace(functionName, $"C# Timer trigger function executed at: {DateTime.Now}", log, TraceLevel.Info, _telemetry);
+            LoggerHelper.WriteTrace(functionName, $"C# Timer trigger function executed at: {DateTime.UtcNow.ToString("dd/MM/yyyy HH-mm-ss")}", log, TraceLevel.Info, _telemetry);
         }
     }
 }
